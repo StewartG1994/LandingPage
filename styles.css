@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size:24px;
+    color:#f9faf9;
+}
+
+h1{
+    font-size:48px extra bold;
+    color: #f9faf9;
+    margin-bottom: 15px;
+}
+
+.content > button{
+    background-color: #3882f6;
+    color: #f9faf9;
+    border: none;
+    padding :10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.nav ul{
+background-color: #1f2937;
+display:flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+padding: 50px 10px 20px 100px;
+}
+
+.nav li{
+    list-style: none;
+    padding-right :20px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.right{
+    margin-left: auto;
+}
+
+.hero{
+    display: flex;
+    background-color: #1f2937;
+    color:#e5e7eb;
+    height:300px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;;
+
+}
+
+.content{
+    width:50%;
+    padding-left:  100px;
+    text-align: block;
+}
+
+.image{
+    width: 50%;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTwo{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin-top: 50px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+    height: 300px;
+}
+
+.imageBox >p {
+    text-align: center;
+}
+
+.imageBox > img {
+    border-radius: 20px;
+    border: 2px solid #3882f6;
+}
+
+.quoteSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-size: 30px;
+    color:rgb(110, 110, 110);
+    font-style:italic;    
+    padding: 20px;
+}
+
+.quote{
+    width: 70%;
+    margin: 50px;
+}
+
+.callToAction{
+background-color: #3882f6;
+height: 150px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 50px;
+}
+
+.actionContent {
+    margin: 20px;
+    color: #f9faf9;
+}
+
+.actionContent > p {
+    margin-top: 10px;
+}
+
+
+.actionBtn > button{
+    background-color: #3882f6;
+    color: #f9faf9;
+    border: 2px solid #f9faf9;
+    padding :10px 20px;
+    border-radius: 5px;
+    margin-left :50px;
+
+}
+
+.footer{
+    height: 50px;
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
